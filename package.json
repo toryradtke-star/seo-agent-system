@@ -1,0 +1,38 @@
+{
+  "name": "seo-agent-system",
+  "version": "1.0.0",
+  "description": "Multi-agent SEO content pipeline: crawls a catalog, analyzes SERP intent, and generates optimized product page content through a queue-backed agent pipeline with evals and prompt-injection defenses.",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "docs": "node docsAgent.js",
+    "audit": "node runFullAudit.js",
+    "test:smoke": "node regressionSmokeTest.js",
+    "test:core": "node tests/runTests.js",
+    "worker:crawl": "node queue/workers/crawlWorker.js",
+    "worker:scrape": "node queue/workers/scrapeWorker.js",
+    "worker:analyze": "node queue/workers/analyzeWorker.js",
+    "worker:optimize": "node queue/workers/optimizeWorker.js",
+    "worker:schema": "node queue/workers/schemaWorker.js",
+    "worker:linking": "node queue/workers/linkingWorker.js",
+    "worker:strategy": "node queue/workers/strategistWorker.js",
+    "worker:export": "node queue/workers/exportWorker.js",
+    "test": "node tests/runTests.js"
+  },
+  "keywords": [],
+  "author": "Tory Radtke",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "axios": "^1.13.5",
+    "bullmq": "^5.70.1",
+    "cheerio": "^1.2.0",
+    "googleapis": "^171.4.0",
+    "ioredis": "^5.10.0",
+    "turndown": "^7.2.2",
+    "xml2js": "^0.6.2"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}

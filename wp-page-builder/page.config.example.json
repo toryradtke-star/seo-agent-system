@@ -1,0 +1,14 @@
+{
+  "topic": "Dry Needling",
+  "brand": "Workout 24/7",
+  "colors": {
+    "surface": "#FFFFFF",
+    "primary": "#F77F00",
+    "accent": "#000000",
+    "text": "#000000"
+  },
+  "pageType": "service",
+  "theme": "clinic",
+  "export": ["files"],
+  "outputDir": "output/wp-page-builder-example"
+}

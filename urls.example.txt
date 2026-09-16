@@ -1,0 +1,6 @@
+# Newline-delimited list of absolute URLs for batch-scraper.js to fetch.
+# Copy to urls.txt (gitignored) and fill in your own targets.
+# Blank lines and lines starting with # are ignored.
+#
+# https://example.com/products/widget
+# https://example.com/products/gadget

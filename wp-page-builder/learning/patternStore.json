@@ -1,0 +1,88 @@
+[
+  {
+    "pageType": "home",
+    "theme": "gym",
+    "sectionOrder": [
+      "hero",
+      "content",
+      "process",
+      "benefits",
+      "testimonials",
+      "pricing",
+      "cta"
+    ],
+    "sectionVariants": [
+      {
+        "component": "hero",
+        "variant": "centered"
+      },
+      {
+        "component": "content",
+        "variant": "editorial"
+      },
+      {
+        "component": "process",
+        "variant": "steps"
+      },
+      {
+        "component": "benefits",
+        "variant": "icons"
+      },
+      {
+        "component": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "component": "pricing",
+        "variant": "cards"
+      },
+      {
+        "component": "cta",
+        "variant": "banner"
+      }
+    ],
+    "usageCount": 1,
+    "lastUsed": "2026-03-11T16:46:32.893Z",
+    "signature": "home::gym::hero|content|process|benefits|testimonials|pricing|cta::hero:centered|content:editorial|process:steps|benefits:icons|testimonials:grid|pricing:cards|cta:banner"
+  },
+  {
+    "pageType": "home",
+    "theme": "gym",
+    "sectionOrder": [
+      "hero",
+      "content",
+      "process",
+      "benefits",
+      "testimonials",
+      "cta"
+    ],
+    "sectionVariants": [
+      {
+        "component": "hero",
+        "variant": "centered"
+      },
+      {
+        "component": "content",
+        "variant": "editorial"
+      },
+      {
+        "component": "process",
+        "variant": "steps"
+      },
+      {
+        "component": "benefits",
+        "variant": "icons"
+      },
+      {
+        "component": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "component": "cta",
+        "variant": "banner"
+      }
+    ],
+    "usageCount": 1,
+    "signature": "home::gym::hero|content|process|benefits|testimonials|cta::hero:centered|content:editorial|process:steps|benefits:icons|testimonials:grid|cta:banner"
+  }
+]

@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit. See .env.example.
+.env
+.env.local
+credentials.json
+oauth.json
+token.json
+*.pem
+
+# Crawl targets and anything the pipeline produces
+urls.txt
+output/
+*.log
+
+# Scraped page snapshots
+scraped-body.html
+scraped-headings.json
+*.sqlite
+*.db
+
+# Editor / OS
+.claude/settings.local.json
+.DS_Store
+Thumbs.db

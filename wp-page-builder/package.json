@@ -1,0 +1,14 @@
+{
+  "name": "wp-page-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "generate": "node index.js"
+  },
+  "dependencies": {
+    "googleapis": "^171.4.0"
+  }
+}
